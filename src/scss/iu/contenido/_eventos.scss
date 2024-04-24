@@ -23,6 +23,10 @@
 
 .evento {
   border: 1px solid v.$grisClaro;
+  transition: all .3s ease;
+  &:hover{
+    background-color: darken(v.$grisClaro,5%);
+  }
 
   &__contenido {
     padding: 2rem;
